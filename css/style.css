@@ -89,7 +89,6 @@ a:hover {
 }
 
 .typewrite > .wrap:after {
-  font-family: 'Arial';
   content: '•';
   color: red;
   font-weight: 500;
