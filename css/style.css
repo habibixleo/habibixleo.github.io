@@ -7,7 +7,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-color: #000000;
-  background-size: auto 100%;
+  background-size: cover;
   font-family: 'VT323';
   font-size: 24px;
   color: white;
