@@ -2,12 +2,12 @@
 
 html,
 body {
-  background-image: url(../images/bg.gif);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  /*background-image: url(../images/bg.gif);*/
+  /*background-position: center;*/
+  /*background-repeat: no-repeat;*/
+  /*background-attachment: fixed;*/
   background-color: #000000;
-  background-size: auto 100%;
+  /*background-size: auto 100%*/;
   font-family: 'VT323';
   font-size: 24px;
   color: white;
@@ -22,6 +22,13 @@ body {
 *:before,
 *:after {
   box-sizing: border-box;
+}
+
+#bg {
+  position: fixed;
+  top: 0;
+  width: auto;
+  height: 100%;
 }
 
 .main-container {
@@ -76,6 +83,35 @@ a:hover {
   color: black;
   border-color: white;
   background-color: white;
+  transition: 0.15s all;
+}
+
+.heart {
+  position: relative;
+  text-align: center;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heart > a {
+  border: 0px;
+  width: 50px;
+  margin: 0;
+  padding: 0;
+  color: blue;
+}
+
+object {
+  pointer-events: none;
+}
+
+.heart > a:hover {
+  background-color: black;
+  fill: red;
+  color: red;
   transition: 0.15s all;
 }
 
